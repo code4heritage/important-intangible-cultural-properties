@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo": "important-intangible-cultural-properties",
+    "name": "重要無形文化財",
+    "category": {
+      "code": "303",
+      "name": "重要無形文化財"
+    },
+    "kinds": []
+  },
+  "source": {
+    "name": "国指定文化財等データベース",
+    "publisher": "文化庁",
+    "url": "https://kunishitei.bunka.go.jp/",
+    "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
+    "accessed_date": "2026-08-23",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+  },
+  "generator": {
+    "name": "heritage-crawler",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "records": 100,
+    "files": 1,
+    "with_coordinates": 0
+  },
+  "labels": {
+    "ledger_id": "台帳ID",
+    "managed_id": "管理対象ID",
+    "category_code": "分類コード",
+    "category_name": "分類",
+    "url": "詳細ページ",
+    "name": "名称",
+    "name_kana": "ふりがな",
+    "types": "種別",
+    "designation_kind": "指定・登録・選定の別",
+    "certification_class": "認定区分",
+    "designated_date": "指定年月日",
+    "criteria": "指定基準",
+    "description": "解説文",
+    "detailed_description": "詳細解説",
+    "holders": "保持者・保持団体",
+    "holders.alias": "団体情報の代表者雅号等",
+    "holders.alias_kana": "保持者（関係技芸者）の芸名・雅号等 ふりがな",
+    "holders.certificate_date": "認定書の交付又は再発行の年月日（選択書の交付年月日）",
+    "holders.certification_class": "認定区分",
+    "holders.date": "認定・指定年月日",
+    "holders.name": "保持者（関係技芸者）の氏名",
+    "holders.name_kana": "保持者（関係技芸者）の氏名 ふりがな",
+    "holders.representative": "団体情報の代表者氏名",
+    "holders.representative_kana": "団体情報の代表者氏名 ふりがな",
+    "holders.role": "総合認定役割",
+    "holders.round": "認定次",
+    "has_attachment": "添付ファイルの有無",
+    "has_photo": "写真の有無"
+  },
+  "fields": {
+    "ledger_id": 100,
+    "managed_id": 100,
+    "category_code": 100,
+    "category_name": 100,
+    "url": 100,
+    "name": 100,
+    "name_kana": 99,
+    "types": 100,
+    "designation_kind": 100,
+    "certification_class": 100,
+    "designated_date": 100,
+    "criteria": 8,
+    "description": 94,
+    "detailed_description": 5,
+    "holders": 78,
+    "has_attachment": 100,
+    "has_photo": 100
+  },
+  "facets": {
+    "types": {
+      "芸能": 51,
+      "工芸技術": 49,
+      "音楽": 25,
+      "染織": 18,
+      "陶芸": 12,
+      "歌舞伎": 6,
+      "漆芸": 6,
+      "能楽": 6,
+      "手漉和紙（てすきわし）": 5,
+      "金工": 5,
+      "文楽": 4,
+      "組踊": 4,
+      "舞踊": 3,
+      "木竹工": 2,
+      "演芸": 2,
+      "人形": 1,
+      "雅楽": 1
+    },
+    "criteria": {
+      "（一）芸術上特に価値の高いもの": 8,
+      "（二）芸能史上特に重要な地位を占めるもの": 5,
+      "（二）工芸史上特に重要な地位を占めるもの": 3,
+      "（三）芸術上価値が高く、又は工芸史上重要な地位を占め、かつ、地方的特色が顕著なもの": 2,
+      "（三）芸術上価値が高く、又は芸能史上重要な地位を占め、かつ、地方的又は流派的特色が顕著なもの": 2
+    },
+    "designation_kind": {
+      "認定": 100
+    }
+  },
+  "files": [
+    {
+      "path": "data/99_unspecified.jsonl",
+      "area_code": "99",
+      "area_name": "地域を定めない",
+      "records": 100
+    }
+  ]
+}
