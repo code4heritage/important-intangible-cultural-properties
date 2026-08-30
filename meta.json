@@ -42,7 +42,7 @@
     "description": "解説文",
     "detailed_description": "詳細解説",
     "holders": "保持者・保持団体",
-    "holders.alias": "団体情報の代表者雅号等",
+    "holders.alias": "保持者（関係技芸者）の芸名・雅号等",
     "holders.alias_kana": "保持者（関係技芸者）の芸名・雅号等 ふりがな",
     "holders.certificate_date": "認定書の交付又は再発行の年月日（選択書の交付年月日）",
     "holders.certification_class": "認定区分",
